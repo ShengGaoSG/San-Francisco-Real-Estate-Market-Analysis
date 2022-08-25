@@ -1,20 +1,52 @@
-# San-Francisco-Real-Estate-Market-Analysis
-
+# Housing Rental Analysis for San Francisco
+---
 This program is designed to use data visualization skills, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities. The visualizations are created by hvPlot and GeoViews. The program completes the flowing tasks:
 
-Calculate and Plot the Housing Units per Year	
 
-The program uses numerical and visual aggregation to calculate the number of housing units per year, and then visualize the results as a bar chart.
+-Calculate and plot the housing units per year.
 
-Calculate and Plot the Average Sale Prices per Square Foot
+-Calculate and plot the average prices per square foot.
 
-The program uses numerical and visual aggregation to calculate the average prices per square foot, and then visualize the results as a bar chart.
+-Compare the average prices by neighborhood.
 
-Compare the Average Sale Prices by Neighborhood
+-Build an interactive neighborhood map.
 
-The program uses interactive visualizations and widgets to explore the average sale pr8ice per square foot by neighborhood. 
+-Compose the data story.
 
-Build an Interactive Neighborhood Map
+## Technologies
 
-The program explores the geospatial relationships in the data by using integrative visualizations with hvPlot and GeoViews based on the DataFrame that includes the neighborhood location data with the average prices. 
+This project leverages python 3.7 with hvPlot and GeoViews included in PyViz, a Python visualization package that provides a single platform for accessing multiple visualization libraries. 
 
+
+## Installation Guide
+
+Before running the application first install the PyViz ecosystem, which includes both hvPlot and GeoViews:
+
+```python
+  conda install -c pyviz hvplot geoviews
+```
+
+---
+
+## Usage
+
+Here are the images of the web application appearence:
+<img width="1289" alt="Screen Shot 2022-08-25 at 2 15 45 PM" src="https://user-images.githubusercontent.com/107383254/186739369-365c299b-b1f2-48f3-a275-5978279d7a89.png">
+
+
+
+<img width="1300" alt="Screen Shot 2022-08-25 at 2 16 04 PM" src="https://user-images.githubusercontent.com/107383254/186739392-5f367187-6111-4e04-b613-6c341d526d51.png">
+
+
+---
+
+## Contributors
+
+Sheng Gao
+sheng_gao@outlook.com
+
+---
+
+## License
+
+Columbia Engineering FinTech Boot Camp
